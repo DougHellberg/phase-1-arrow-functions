@@ -1,5 +1,7 @@
-const divide = (a,b) => a/b;
+function divide(a,b){
+    return a/b;
+}
 
-const square = (a) => a*a;
+let square = (a) => {return a*a} 
 
-const add = (a,b) => a+b;
+let add  = (a,b) => {return a+b}
